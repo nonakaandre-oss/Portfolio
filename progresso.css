@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 6em 1em 4em;
+  background: linear-gradient(180deg, #111, #0d0d0d);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  color: #ffcc00;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* ===== PROGRESS ===== */
+.progress-section {
+  max-width: 900px;
+  margin: 3em auto;
+  padding: 0 1em;
+}
+
+.progress-section h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  color: #ffcc00;
+}
+
+.progress-card {
+  background: #1a1a1a;
+  padding: 1.5em;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+  box-shadow: 0 0 15px rgba(255, 204, 0, 0.1);
+}
+
+.progress-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.8em;
+  color: #fff;
+}
+
+.progress-bar {
+  background: #333;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 0.8em;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffcc00, #ff8800);
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 20px 0 0 20px;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+  text-align: center;
+  padding: 4em 1em;
+  background: #111;
+}
+
+.gallery h2 {
+  color: #ffcc00;
+  margin-bottom: 1.5em;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2em;
+}
+
+.img-placeholder {
+  width: 280px;
+  height: 180px;
+  background: #222;
+  border: 2px dashed #ffcc00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.img-placeholder:hover {
+  transform: scale(1.05);
+  color: #ffcc00;
+}
+
+/* ===== TEAM ===== */
+.team {
+  text-align: center;
+  padding: 4em 1em;
+}
+
+.team h2 {
+  color: #ffcc00;
+  margin-bottom: 1em;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.member {
+  background: #1a1a1a;
+  padding: 1em 2em;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+.member i {
+  font-size: 2.5em;
+  color: #ffcc00;
+  margin-bottom: 0.5em;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background: #0a0a0a;
+  color: #777;
+  font-size: 0.9em;
+}
